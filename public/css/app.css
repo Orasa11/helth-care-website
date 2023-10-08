@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid img{
+    margin-left: 20px;
+}
+
+.customListMenu{
+    margin-left: 60px;
+}
+
+.customInputForm{
+    margin-right: 80px;
+}
+
+.customInput{
+    width: 300px;
+}
+
+.customLoginBT{
+    color: black;
+    font-size: 26px;
+}
+
+.logo{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.carousel-item img{
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.mainContentHeader{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.subContentHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    margin: 60px 15px 30px 15px;
+}
+
+.card{
+    margin-bottom: 14px;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.fa-fire{
+    font-size: 12px;
+}
+
+.aboutHeader{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.aboutHeader img{
+    width: 400px;
+}
+
+.aboutHeader h5{
+    margin-top: 20px;
+}
+
+.aboutBody{
+    margin: 30px 20% 30px 20%;
+}
+
+.calCulator{
+    margin: 5% 30% 0 30%;
+}
+
+.calCulatorForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.calCulatorForm label{
+    margin-top: 10px;
+}
+
+.calCulatorForm input{
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.calCulatorForm input[type=button]{
+    margin-top: 14px;
+}
+
+.genderContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.genderContainer label{
+    font-size: 24px;
+}
+
+.genderSelector{
+    border: 1px solid black;
+}
+
+.ingredient{
+
+}
+
+.recipe{
+
+}
