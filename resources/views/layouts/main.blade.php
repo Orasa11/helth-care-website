@@ -26,7 +26,8 @@
                         <a class="nav-link active" aria-current="page" href="/">หน้าหลัก</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             โรคในผู้สูงอายุ
                         </a>
                         <ul class="dropdown-menu">
@@ -47,7 +48,8 @@
                     </li>
                 </ul>
                 <form class="d-flex customInputForm" role="search">
-                    <input class="form-control me-2 customInput" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2 customInput" type="search" placeholder="Search"
+                        aria-label="Search">
                 </form>
                 <a href="https://lin.ee/vzKDpan"><i class="fa-brands fa-line customLoginBT me-3"></i></a>
                 @if (Route::has('login'))
@@ -57,7 +59,7 @@
                                 class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a>
                         @else
                             <a href="{{ route('login') }}"
-                                class="me-3 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500 mg-r6" >
+                                class="me-3 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500 mg-r6">
                                 <i class="fa-regular fa-circle-user customLoginBT "></i>
                             </a>
 
