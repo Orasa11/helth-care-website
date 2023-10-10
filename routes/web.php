@@ -18,7 +18,7 @@ use App\Http\Controllers\UserController;
 */
 
 Route::get('/', function () {
-return view('index');
+    return view('index');
 });
 
 Route::get('/about', function () {
@@ -36,6 +36,10 @@ Route::get('/obesity_food1', [PageController::class, 'obesity_food1']);
 Route::get('/obesity_food2', [PageController::class, 'obesity_food']);
 Route::get('/calculator', [PageController::class, 'calculator']);
 
+Route::get('/newindex', function () {
+    return view('newindex');
+});
+
 Route::resource('user', UserController::class);
 
 Route::middleware('auth')->group(function () {
@@ -44,4 +48,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

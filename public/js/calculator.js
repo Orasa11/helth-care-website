@@ -5,10 +5,7 @@ calculateButton.addEventListener("click", () => {
     const age = document.getElementById("age").value;
     const result = document.getElementById("result");
     const genderSelect = document.getElementById("genderSelect");
-    let bmrWeight;
-    let bmrHeight;
-    let bmrAge;
-    let gender;
+    let bmrWeight, bmrHeight, bmrAge, gender;
     if (weight === "") {
         return (result.innerHTML = "Please Enter Weight");
     }

@@ -124,6 +124,19 @@
 
 }
 
+.customCardContainer {
+    margin: 30px 15% 30px 15%;
+}
+
+.customCardContainer .col a {
+    text-decoration: none;
+}
+
+.customCardContainer .col a .card:hover {
+    border: 1.5px solid #618C03;
+    transition: 0.5s;
+}
+
 .ingredient {
 }
 
