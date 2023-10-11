@@ -36,8 +36,8 @@ Route::get('/obesity_food1', [PageController::class, 'obesity_food1']);
 Route::get('/obesity_food2', [PageController::class, 'obesity_food']);
 Route::get('/calculator', [PageController::class, 'calculator']);
 
-Route::get('/newindex', function () {
-    return view('newindex');
+Route::get('/oldindex', function () {
+    return view('oldindex');
 });
 
 Route::resource('user', UserController::class);

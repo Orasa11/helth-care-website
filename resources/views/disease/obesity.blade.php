@@ -35,8 +35,8 @@
 
     {{-- Fix gap --}}
     <div class="mainContentHeader" style="margin-right: 20px;">
-        <a class="fs-4" href="">อาหารที่สามารถกินได้</a>
-        <a class="fs-4" href="#">อาหารที่ควรหลีกเลี่ยง</a>
+        <a class="fs-4" href="#" id="edible">อาหารที่สามารถกินได้</a>
+        <a class="fs-4" href="#" id="shouldAvoid">อาหารที่ควรหลีกเลี่ยง</a>
     </div>
     {{-- Fix gap --}}
 
@@ -161,4 +161,5 @@
             </div>
         </div>
     </div>
+    <script src="{{asset('js/foodPage.js')}}"></script>
 @endsection
