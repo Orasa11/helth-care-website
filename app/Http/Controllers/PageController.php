@@ -19,7 +19,7 @@ class PageController extends Controller
     }
 
     public function obesity_food1() {
-        return view('disease/obesity_food1');
+        return view('food/obesity_food1');
     }
 
     public function obesity_food2() {

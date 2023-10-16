@@ -138,6 +138,22 @@
     transition: 0.5s;
 }
 
+.calculatorError {
+    color: #fc2d32;
+}
+
+#weightError {
+    display: none;
+}
+
+#heightError {
+    display: none;
+}
+
+#ageError {
+    display: none;
+}
+
 .ingredient {
 }
 

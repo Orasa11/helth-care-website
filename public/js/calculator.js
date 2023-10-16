@@ -7,13 +7,16 @@ calculateButton.addEventListener("click", () => {
     const genderSelect = document.getElementById("genderSelect");
     let bmrWeight, bmrHeight, bmrAge, gender;
     if (weight === "") {
-        return (result.innerHTML = "Please Enter Weight");
+        const weightError = document.getElementById("weightError");
+        return weightError.style.display = "block";
     }
     if (height === "") {
-        return (result.innerHTML = "Please Enter Height");
+        const heightError = document.getElementById("heightError");
+        return heightError.style.display = "block";
     }
     if (age === "") {
-        return (result.innerHTML = "Please Enter Age");
+        const ageError = document.getElementById("ageError");
+        return ageError.style.display = "block";
     }
     if (genderSelect.value === "female") {
         bmrWeight = 9.6 * weight;

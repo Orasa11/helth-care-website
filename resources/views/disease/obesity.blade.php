@@ -107,6 +107,18 @@
                     <p class="card-text">ปลาดอลลี่นึ่งกับข้าวกล้อง</p>
                 </div>
             </div>
+            <div class="card" style="min-width: 200px;">
+                <img src="{{ asset('img/food/o7.jpg') }}" class="card-img-top" style="width: 100%; height:130px;">
+                <div class="card-body">
+                    <p class="card-text">ปลาดอลลี่นึ่งกับข้าวกล้อง</p>
+                </div>
+            </div>
+            <div class="card" style="min-width: 200px;">
+                <img src="{{ asset('img/food/o7.jpg') }}" class="card-img-top" style="width: 100%; height:130px;">
+                <div class="card-body">
+                    <p class="card-text">ปลาดอลลี่นึ่งกับข้าวกล้อง</p>
+                </div>
+            </div>
         </div>
     </div>
 
